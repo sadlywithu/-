@@ -1,0 +1,568 @@
+@import url(./font.css);
+*{
+    font-family: "Manrope-m";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    margin: 0 auto; 
+    width: 1200px;
+    padding: 20px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.language{
+    display: flex;  
+}
+.language h4{
+    padding-right: 10px;
+}
+.language img{
+    padding-right: 10px;
+}
+.monochrome h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.all i{
+    margin-left: 10px;
+}
+.catalogue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;;
+}
+.catalogue h4{
+    padding: 15px;
+    text-transform: uppercase;
+}
+.name-shop{
+    display: flex;
+}
+.name-shop h1{
+    width: 80%;
+    font-size: 120px;
+    text-transform: uppercase;
+    padding-right: 5px;
+}
+.name-shop h3{
+    text-align: start;
+}
+.preview{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.for-all{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.text-monochrom h2{
+    font-size: 70px;
+    font-family: 'Neutral';
+} 
+.models{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+}
+.human h4{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.new-collection{
+    background-image: url(/assets/img/6.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+}
+.collection{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.collection h2{
+    font-size: 70px;
+    font-family: 'Neutral';
+    color: white;
+    text-align: center;
+}
+.text-colletion h3{
+    font-family: 'Manrope-m';
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+.catalogue-button{
+    padding-top: 50px;
+}
+.catalogue-button button{
+    height: 50px;
+    padding: 5px;
+    width: 200px;
+    text-transform: uppercase;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.news h2{
+    text-transform: uppercase;
+    font-family: 'Neutral';
+    font-size: 70px;
+}
+.season{
+    display: flex;
+    justify-content: start;
+}
+.winter{
+    display: flex;
+    justify-content: end;
+}
+.colors{
+    display: flex;
+    justify-content: space-between;
+}
+.colors h4{
+    padding-top: 15px;
+}
+.greenred{
+    display: flex;
+    flex-direction: column;
+}
+.green{
+    margin-top: 30px;
+}
+.women_in_green{
+    width: 50%;
+}
+
+.sizecostum{
+    display: flex;
+    justify-content: space-between;
+}
+
+.size{
+   width: 40%;
+}
+.size h2{
+    text-transform: uppercase;
+    font-family: 'Neutral';
+    font-size: 70px;
+}
+.tablesize{
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.size select{
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border-color: rgb(175, 172, 172);
+}
+.price{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.price input{
+    width: 60%;
+    height: 45px;
+}
+.price h3{
+    font-size: 40px;
+}
+.buttonadd{
+    padding-top: 30px;
+    width: 100%;
+}
+.buttonadd button{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.container-add{
+    background-color: black;
+    color: white;
+    
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+.dignites{
+    padding: 10px;
+    width: calc(100%/4);
+}
+.dignites h3{
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.dignites h4{
+    font-size: 13px;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-between;
+}
+.we{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.we h2{
+    text-transform: uppercase;
+    padding-bottom: 14px;
+    font-size: 70px;
+}
+.nospam{
+    width: 40%;
+}
+
+.links{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+.dannie h3{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.dannie input{
+    width: 100%;
+    height: 45px;
+    padding: 5px;
+}
+.rassilki{
+    display: flex;
+    padding-top: 15px;
+    font-size: 14px;
+   width: 100%; 
+   justify-content: space-between;
+}
+.buttonsand{
+    padding-top: 30px;
+    width: 100%;
+}
+.buttonsand button{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: black;
+}
+.links{
+    padding-top: 30px;
+}
+.links h3{
+    padding-bottom: 30px;
+}
+.opisanie{
+    display: none;
+}
+#input1:checked ~ .text-perecluch .text1,
+#input2:checked ~ .text-perecluch .text2,
+#input3:checked ~ .text-perecluch .text3{
+    display: block;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    padding-top: 50px;
+}
+.footer h3{
+    font-size: 10px;
+}
+.footer i{
+    font-size: 20px;
+}
+.social{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    padding-top: 30px;
+    width: 1024px;
+    margin: 0 auto;
+}
+.container2 .perecluch .line h3 {
+    font-size: 15px;
+    margin-top: 20px;
+    color: #000000;
+    width: 400px;
+    line-height: 25px;
+}
+.container2 label {
+    width: 100%;
+    justify-content: space-between;
+    font-size: 18px;
+   margin-right: 70px;
+}
+.container2 input{
+    display: none;
+}
+#input1:checked ~  #label1,
+#input2:checked ~  #label2,
+#input3:checked ~  #label3{
+    text-decoration: underline;
+}
+.perecluch{
+    width: 100%;
+    overflow: hidden;
+}
+.line{
+    width: 100%;
+    display: flex;
+}
+.text{
+    width: calc(100%/3);
+    /*animation: carousel 10s ease-in-out alternate infinite;*/
+    transition: 1s;
+}
+
+#input1:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(0);
+}
+#input2:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(-100%);
+}
+#input3:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(-200%);
+}
+    @keyframes carousel {
+    0%,20%{
+        transform: translateX(0);
+    }
+    30%,70%{
+        transform: translateX(-100%);
+    }
+    80%,100%{
+        transform: translateX(-200%);
+    }
+}
+
+
+@media (max-width: 1200px){
+    .container{
+        width: 1024px;
+
+    }
+}
+@media (max-width: 1024px){
+    .container{
+        width: 720px;
+    }
+    .preview #img1{
+        width: 70%;
+        height: 100%;
+    }
+    .preview #img2{
+        width: 50%;
+        height: 245px;
+    }
+    .name-shop h1{
+        font-size: 90px;
+    }
+    .name-shop h3{
+        font-size: 15px;
+    }
+    .models{
+        gap: 10px;
+    }
+    .models img{
+        width: 100%;
+
+    }
+    .colors{
+        gap: 10px;
+        width: 100%;
+        
+    }
+    .green{
+        margin-top: 0;
+    }
+    .colors img{
+        width: 100%;
+    }
+    .women_in_green img{
+        width: 100%;
+    }
+    .we h3{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .nospam{
+        width: 100%;
+    }
+    .nospam img{
+        width: 100%;
+    }
+    .sand{
+        padding-left: 10px;
+    }
+    .container2{
+        width: 100%;
+    }
+    .we h2{
+        font-size: 50px;
+    }
+   
+}
+@media (max-width: 720px){
+    .container{
+        width: 98%;
+    }
+    .catalogue{
+        flex-direction: column;
+    }
+    .name-shop{
+        flex-direction: column;
+    }
+    .preview #img2{
+       height: 213px; 
+    }
+    .sizecostum{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .price{
+        flex-direction: column;
+    }
+    .links{
+        flex-direction: column;
+    }
+    .about-us img{
+        width: 100%;
+    }
+    .about-us h3{
+        font-size: 10px;
+    }
+    .container2{
+        width: 100%;
+    }
+    .we h2{
+        font-size: 30px;
+    }
+
+}
+@media (max-width: 480px){
+    .container{
+        width: 98%;
+    }
+    .name-shop h1{
+       font-size: 70px;
+    }
+    .preview{
+        padding-top: 15px;
+    }
+    .preview #img2{
+        height: 141px;
+        display: grid;
+        place-items: center;
+    }
+    .text-monochrom h2{
+        font-size: 50px;
+    }
+    .human h4{
+        font-size: 15px;
+    }
+    .text-colletion h2{
+        font-size: 50px;
+    }
+    .text-colletion h3{
+        font-size: 20px;
+    }
+    .news h2{
+        font-size: 50px;
+    }
+    .colors h4{
+        font-size: 13px;
+        padding-top:0 ;
+    }
+    .size h2{
+        font-size: 50px;
+    }
+    .size h3{
+        font-size: 13px;
+    }
+    .price h3{
+        font-size: 30px;
+    }
+    .price input{
+        width: 100%;
+    }
+    .news h2{
+        font-size: 30px;
+    }
+    .links h3{
+        font-size: 13px;
+    }
+    .nospam{
+        padding-top: 15px;
+    }
+    .rassilki{
+        font-size: 10px;
+        padding-bottom: 15px;
+    }
+    .sand{
+        font-size: 10px;
+
+    }
+    .dignites h3{
+        font-size: 10px;
+    }
+    .dignites h4{
+        font-size: 9px;
+    }
+    .footer{
+        padding-top: 10px;
+        flex-direction: column;
+        align-items: center;
+        line-height: 40px;
+    }
+    .social{
+        width: 40%;
+    }
+}
+
+
+
